@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(175, 139, 209);
+}
+.content{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 20px;
+   font-size: 40px;
+}
+.paragraph{
+    align-items: center;
+   justify-content: center;
+   display: flex;
+   margin: auto;
+   font-size: 100px;
+}
+.buttons{
+    display: flex; /* Use flexbox layout */
+    justify-content: center;
+    font-size: 50px;
+
+}
+#Dbtn{
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding */
+    margin: 0 5px; /* Add margin between buttons */
+    
+    cursor: pointer;
+}
+#Rbtn{
+    background-color: #ffffff; /* Green background */
+    color: #000000; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding */
+    margin: 0 5px; /* Add margin between buttons */
+    cursor: pointer; /
+}
+#Ibtn{
+    background-color: #20ec42c5; /* Green background */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding */
+    margin: 0 5px; /* Add margin between buttons */
+    cursor: pointer; /
+}
